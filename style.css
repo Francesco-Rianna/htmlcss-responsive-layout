@@ -70,3 +70,31 @@ header {
 .right a {
     color: #fff;
 }
+
+/*-------------------
+    SECTION-RESPONSIVE
+-------------------*/
+
+@media screen and (max-width: 992px) {
+
+    .right ul,
+    .right button {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .right ul,
+    .right button {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+}
