@@ -190,6 +190,14 @@ header {
     width: 50%;
 }
 
+.col-woman img {
+    padding-bottom: 50px;
+}
+
+.col-woman h3 {
+    padding-bottom: 50px;
+}
+
 
 
 .section-strategic p {
@@ -206,7 +214,7 @@ header {
     border-radius: 40px;
     padding: 40px;
     text-align: center;
-    width: 60%;
+    width: 100%;
 
 }
 
@@ -224,28 +232,28 @@ header {
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 5px;
-
-
 }
 
 .section-strategic h3 {
     color: #fff;
 }
 
-
-
 .section-strategic p {
     line-height: 1.5;
 }
 
-
-.section-strategic img {
-    width: 100%;
-}
-
 .special-card img {
-    width: 50%;
+    max-width: 70%;
 }
+
+
+
+
+
+
+
+
+
 
 
 
