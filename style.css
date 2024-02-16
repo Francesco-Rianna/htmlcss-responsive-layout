@@ -59,6 +59,10 @@ a {
 
 }
 
+.bg-violet {
+    background: #9792e4;
+}
+
 
 /*-------------------
     SECTION-HEADER
@@ -181,7 +185,6 @@ header {
     SECTION-STRATEGIC
 -------------------*/
 .section-strategic {
-    background: #9792e4;
     margin-top: 50px;
     padding: 40px 10px;
 }
@@ -246,20 +249,6 @@ header {
     max-width: 70%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*-------------------
     SECTION-TESTIMONIALS
 -------------------*/
@@ -319,6 +308,70 @@ header {
 .testimonial-text strong {
     font-size: 25px;
 }
+
+/*-------------------
+    SECTION-BENEFIT
+-------------------*/
+.section-benefit {
+    margin-top: 50px;
+    padding: 40px;
+}
+
+.section-benefit h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.section-benefit .col {
+    width: calc(100%/3);
+    margin-top: 30px;
+
+}
+
+.card-benefit {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.card-benefit h2,
+.card-benefit h4 {
+    color: #9792e4;
+}
+
+
+.card-benefit h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.card-benefit h4 {
+    font-size: 25px;
+}
+
+.card-benefit p {
+    line-height: 1.5;
+    color: rgba(8, 5, 5, 0.621);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-violet {
+    padding: 8px 40px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -392,6 +445,10 @@ header {
 
     .section-strategic .col {
         margin-bottom: 30px;
+    }
+
+    .section-benefit .col {
+        width: 50%;
     }
 }
 
