@@ -498,4 +498,9 @@ header {
     .testimonial-text h4 {
         text-align: center;
     }
+
+
+    .section-benefit .col {
+        width: 100%;
+    }
 }
