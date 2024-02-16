@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "PT Sans", sans-serif;
+}
+
 img {
     max-width: 100%;
 
@@ -29,15 +33,18 @@ a {
     padding: 0 15px;
 }
 
+.container-small {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 .btn {
     background-color: #ffffff;
-    border-radius: 10px;
+    border-radius: 20px;
     border: none;
     color: #000000;
     padding: 5px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .col {
@@ -66,7 +73,7 @@ header {
 }
 
 .section-header {
-    padding: 8px;
+    padding: 8px 0px;
 }
 
 .menu {
@@ -94,7 +101,7 @@ header {
 }
 
 /*-------------------
-    SECTION-INFO
+    SECTION-INTRO
 -------------------*/
 
 .section-intro .row {
@@ -110,28 +117,40 @@ header {
 
 }
 
+.col-large .card {
+    padding-bottom: 0px;
+}
+
+.col-large img {
+    display: block;
+}
+
 .card {
     background-color: #b5ddff;
-    border-radius: 10px;
+    border-radius: 20px;
     gap: 50px;
     display: flex;
-    padding: 35px 15px 0px;
+    padding: 20px;
 }
 
 .content-card p {
     margin-top: 20px;
     line-height: 2;
+    color: #5a6e7f;
 }
 
 .content-card .btn {
     background: #0084fd;
     color: #fff;
-    width: 50%;
     border-radius: 25px;
-    padding: 5px;
+    padding: 8px 30px;
     margin-top: 20px;
     margin-bottom: 10px;
 
+}
+
+.btn i {
+    margin-right: 10px;
 }
 
 .screen {
@@ -157,6 +176,149 @@ header {
     font-size: 50px;
     color: #0084fd;
 }
+
+/*-------------------
+    SECTION-STRATEGIC
+-------------------*/
+.section-strategic {
+    background: #9792e4;
+    margin-top: 50px;
+    padding: 40px 10px;
+}
+
+.section-strategic .col {
+    width: 50%;
+}
+
+
+
+.section-strategic p {
+    color: #fff;
+}
+
+.section-strategic .row {
+    display: flex;
+    align-items: flex-end;
+}
+
+.special-card {
+    background: #fff;
+    border-radius: 40px;
+    padding: 40px;
+    text-align: center;
+    width: 60%;
+
+}
+
+.special-card p {
+    font-style: oblique;
+    font-size: 15px;
+    color: #222;
+}
+
+.special-card button {
+    border-radius: 50%;
+    border: none;
+    background: #9792e4;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+
+}
+
+.section-strategic h3 {
+    color: #fff;
+}
+
+
+
+.section-strategic p {
+    line-height: 1.5;
+}
+
+
+.section-strategic img {
+    width: 100%;
+}
+
+.special-card img {
+    width: 50%;
+}
+
+
+
+
+
+
+/*-------------------
+    SECTION-TESTIMONIALS
+-------------------*/
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+    line-height: 2;
+}
+
+.title h2 {
+    font-size: 20px;
+}
+
+.title h1 {
+    font-size: 40px;
+    color: #9792e4;
+}
+
+.title p {
+    text-align: center;
+    margin: 30px 0;
+    line-height: 1.5;
+
+
+}
+
+.card-violet {
+    margin-top: 20px;
+    background: #9792e4;
+    display: flex;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+
+.img-testimon {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(./img/testimonial1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.testimonial-text {
+    align-self: center;
+    padding: 0 20px;
+    color: #fff;
+
+}
+
+.testimonial-text h4 {
+    padding-top: 20px;
+}
+
+.testimonial-text strong {
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -195,6 +357,34 @@ header {
     .screen img {
         height: 300px;
     }
+
+    .section-strategic .row {
+        flex-direction: column;
+    }
+
+    .section-strategic .col {
+        width: 100%;
+    }
+
+    .section-strategic .special-card {
+        width: 100%;
+    }
+
+    .section-strategic img {
+        width: 80%;
+    }
+
+    .respo {
+        margin-left: 20px;
+    }
+
+    .section-strategic h3 {
+        font-size: 80px;
+    }
+
+    .section-strategic .col {
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -205,15 +395,42 @@ header {
         display: none;
     }
 
+
     .menu {
         display: block;
     }
 
-    .row {
-        flex-direction: column;
+    .section-intro .row {
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    .section-intro .col {
+        width: 100%;
+        margin-bottom: 30px;
+
     }
 
     .content-card .btn {
-        width: 100%;
+        width: 50%;
+
+    }
+
+
+    .card-violet {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .testimonial {
+        margin: 0 auto;
+    }
+
+    .testimonial-text {
+        line-height: 1.5;
+    }
+
+    .testimonial-text h4 {
+        text-align: center;
     }
 }
