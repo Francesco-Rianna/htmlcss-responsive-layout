@@ -24,6 +24,10 @@ a {
     text-decoration: none;
 }
 
+footer {
+    background: #222;
+}
+
 /*-------------------
     GENERAL
 -------------------*/
@@ -37,6 +41,14 @@ a {
     max-width: 900px;
     margin: 0 auto;
 }
+
+.container-mini {
+    max-width: 500px;
+    margin: 0 auto;
+
+
+}
+
 
 .btn {
     background-color: #ffffff;
@@ -424,6 +436,76 @@ header {
     margin-top: 10px;
 }
 
+/*-------------------
+    SECTION-STARTED
+-------------------*/
+
+.section-started {
+    color: #fff;
+}
+
+.section-started h5 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.section-started h1,
+p {
+    padding-top: 30px;
+}
+
+.section-started h2 {
+    font-size: 40px;
+
+}
+
+.section-started h1 {
+    font-size: 60px;
+    color: #fdc15f;
+    text-align: center;
+}
+
+.btn-center {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+.section-started .btn {
+    padding: 20px 80px;
+    font-size: 15px;
+    color: #9792e4;
+    font-weight: bold;
+    border-radius: 20px;
+
+
+}
+
+.btn-center a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/*-------------------
+    FOOTER
+-------------------*/
+
+
+
+.text-foot {
+    text-align: center;
+    color: #fff;
+
+}
+
+.text-foot a {
+    text-decoration: underline;
+    color: #9792e4;
+}
+
+
+
 
 
 
@@ -480,6 +562,10 @@ header {
         height: 300px;
     }
 
+    .section-strategic {
+        padding: 40px;
+    }
+
     .section-strategic .row {
         flex-direction: column;
     }
@@ -489,11 +575,11 @@ header {
     }
 
     .section-strategic .special-card {
-        width: 100%;
+        width: 90%;
     }
 
     .section-strategic img {
-        width: 80%;
+        width: 70%;
     }
 
     .respo {
@@ -510,6 +596,10 @@ header {
 
     .section-benefit .col {
         width: 50%;
+    }
+
+    .section-about-us .declaration {
+        width: 100%;
     }
 }
 
@@ -577,5 +667,21 @@ header {
 
     .section-about-us .declaration {
         width: 100%;
+    }
+
+    .section-strategic {
+        padding: 20px;
+    }
+
+    .section-started {
+        padding: 15px;
+    }
+
+    .section-started h2 {
+        text-align: center;
+    }
+
+    footer {
+        padding: 15px;
     }
 }
